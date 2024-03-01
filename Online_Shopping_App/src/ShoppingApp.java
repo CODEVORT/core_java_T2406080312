@@ -11,9 +11,9 @@ public static void main(String[] args) {
 
 	ShopFactory shopFactory = new GSShopFactory();																																						
 
-   PrimeAcc primeAcc = shopFactory.getNewPrimeAcc(1, " Suraj1 ", 100, true);
+   PrimeAcc primeAcc = shopFactory.getNewPrimeAcc(1, " Suraj ", 100, true);
 
-   NormalAcc normalAcc = shopFactory.getNewNormalAcc(2, " Shantanu ", 70, 10);
+   NormalAcc normalAcc = shopFactory.getNewNormalAcc(2, " Shantanu ", 70, 20);
 
    if(AccType ==1) {
 	   
